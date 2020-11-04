@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header__top">
+            <img class="logo logo__header" src="<%=require('./images/noun_Track_553591.png')%>" alt="">
+            <p class="logo__text">Jogsy</p>
+            <nav class="menu">
+                <ul class="menu__header">
+                    <li>Become a host</li>
+                    <li> Pricing</li>
+                    <li> Reviews</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+            <div class="header__line"></div>
+            <div class="header__login">
+                Log In
+            </div>
+            <button class="header__getapp">Get App
+            </button>
+        </div>
+        <div class="header__bottom">
+            <h2 class="header__title">
+                Find your way home worldwide 👇
+            </h2>
+            <p class="header__subtitle">
+                No matter where you are - you’d like to spend less time and money. With Jogsy you get high quality
+                online booking in less than 5 minutes.
+            </p>
+            <div class="search">
+                <input type="text" class="search__input" placeholder="Type your location">
+                <button type="submit" class="search__button">
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <section class="choose">
+        <h2 class="choose__title">
+            Get a choice of your housing
+        </h2>
+        <p class="choose__subtitle">
+            Built ease the process of viewing a property, weather you are a host or a home owner.
+        </p>
+        <div class="choose__progressbar">
+            <button class="choose__button">
+                <img src="<%=require('./images/nazad.png')%>" alt="">
+            </button>
+            
+            <img class="choose__line" src="<%=require('./images/progressbar.png')%>" alt="">
+            <button class="choose__button">
+                <img src="<%=require('./images/vpered.png')%>" alt="">
+            </button>
+        </div>
+        <div class="choose__container">
+            <div class="card">
+                <img class="card__img" src="<%=require('./images/1.png')%>" alt="">
+                <div class="card__top">
+                    <p class="card__name">Ebertstraße dst., #10334</p>
+                    <p class="card__price">$850</p>
+                    <span class="card__text">/mo</span>
+                    <div class="card__bottom">
+                        <img class="card__home" src="<%=require('./images/home.png')%>" alt="">
+                        <p class="card__text">2bd 2ba 51m²</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__img" src="<%=require('./images/2.png')%>" alt="">
+                <div class="card__top">
+                    <p class="card__name">Ebertstraße dst., #10334</p>
+                    <p class="card__price">$850</p>
+                    <span class="card__text">/mo</span>
+                    <div class="card__bottom">
+                        <img class="card__home" src="<%=require('./images/home.png')%>" alt="">
+                        <p class="card__text">2bd 2ba 51m²</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__img" src="<%=require('./images/3.png')%>" alt="">
+                <div class="card__top">
+                    <p class="card__name">Ebertstraße dst., #10334</p>
+                    <p class="card__price">$850</p>
+                    <span class="card__text">/mo</span>
+                    <div class="card__bottom">
+                        <img class="card__home" src="<%=require('./images/home.png')%>" alt="">
+                        <p class="card__text">2bd 2ba 51m²</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="travel">
+        <h3 class="travel__title">Travel expert</h3>
+        <p class="travel__subtitle">Discover a favourite home by your devices. We try to make easy way to booking with
+            comfortable interface.</p>
+        <div class="travel__bottom">
+            <div class="step">
+                <p class="step__title">1 STEP</p>
+                <p class="step__subtitle">Get started with Jogsy</p>
+                <p class="step__text">Create a profile and request an appointment, control your booking and connect with
+                    owners. Fast booking and save money. Clean, simple, and functionally.</p>
+                <button class="step__prew">&larr;</button>
+                <button class="step__next">&rarr;</button>
+            </div>
+            <div class="travel__photo">
+                <img src="<%=require('./images/image.png')%>" alt="">
+            </div>
+            <div class="travel__app">
+                <img src="<%=require('./images/image_app.png')%>" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="find">
+        <img class="find__photo" src="<%=require('./images/section4.png')%>" alt="">
+    </section>
+    <section class="story">
+        <div class="story__text">
+            <h3 class="story__title">Trip story</h3>
+            <p class="story__subtitle">Berlin may still be one of the best-value cities in Europe but, for visitors,
+                those
+                euros can start to add up after days of museum-hopping and nights of clubbing. Fortunately, there are
+                plenty
+                of ways to stretch your budget further by cashing in on some tip-top freebies.</p>
+        </div>
+        <div class="story__apply">
+            <input type="text" class="story__input" placeholder="hello@jogsy.com">
+            <button type="submit" class="story__button">Apply
+            </button>
+            <p class="story__apply story__apply_text">Jogsy is trusted by leading companies</p>
+            <img src="<%=require('./images/icons.png')%>" alt="">
+        </div>
+        <div class="story__map">
+            <img class="story__video" src="<%=require('./images/video.png')%>" alt="">
+            <img src="<%=require('./images/map.png')%>" alt="">
+            <img class="story__pin" src="<%=require('./images/bigpin.png')%>" alt="">
+        </div>
+    </section>
+    <div class="diveder"></div>
+    <section class="rewiews">
+        <div class="comment">
+            <div class="comment__container">
+                <img src="<%=require('/images/stars.png')%>" alt="">
+                <p class="comment__text">“Really pleased with the whole team, it’s so easy to use and it’s causing us
+                    significantlt fewer headaches than booking directly with talent as we’re doing for our trip at the
+                    moment!”</p>
+                <div class="comment__dane">
+                    <img class="commnet_photo" src="<%=require('./images/avatar.png')%>" alt="">
+                    <p class="comment__author">Kristin Lee</p>
+                    <span class="comment__about">Traveller</span>
+                    <P class="comment__date">March, 2019</P>
+                </div>
+            </div>
+            <div class="comment__container">
+                <img src="<%=require('/images/stars.png')%>" alt="">
+                <p class="comment__text">“Really pleased with the whole team, it’s so easy to use and it’s causing us
+                    significantlt fewer headaches than booking directly with talent as we’re doing for our trip at the
+                    moment!”</p>
+                <div class="comment__dane">
+                    <img class="commnet_photo" src="<%=require('./images/avatar.png')%>" alt="">
+                    <p class="comment__author">Kristin Lee</p>
+                    <span class="comment__about">Traveller</span>
+                    <P class="comment__date">March, 2019</P>
+                </div>
+            </div>
+            <div class="comment__container">
+                <img src="<%=require('/images/stars.png')%>" alt="">
+                <p class="comment__text">“Really pleased with the whole team, it’s so easy to use and it’s causing us
+                    significantlt fewer headaches than booking directly with talent as we’re doing for our trip at the
+                    moment!”</p>
+                <div class="comment__dane">
+                    <img class="commnet_photo" src="<%=require('./images/avatar.png')%>" alt="">
+                    <p class="comment__author">Kristin Lee</p>
+                    <span class="comment__about">Traveller</span>
+                    <P class="comment__date">March, 2019</P>
+                </div>
+            </div>
+        </div>
+        <div class="status">
+            <h2 class="status__title">Approved more than <span>30.000</span> guests and owners.</h2>
+            <p class="status__subtitle">Just like Jogsy, who crafted the bin for Europe, we consider ourselves as «tool
+                builders’ measuring the quality of our tools on their long-term ability to provide better every day
+                experiences. Our driving ambition is to bring functional principles found in the professional market
+                into the private home with genuine, industrial design object.</p>
+            <p class="status__subtitle">You see the parallels in choice house and apartment and in the predominant focus
+                of
+                function. In terms of function more than 30 000 guests hold their origin in the need to control their
+                bookings.</p>
+            <div class="status__count">
+                <div class="status__hosts">
+                    <h3 class="status__name">Hosts</h3>
+                    <p class="status__number">20k+</p>
+                    <p class="status__text">According to more than 20k guests from the whole World.</p>
+                </div>
+                <div class="status__apartments">
+                    <h3 class="status__name">Apartments</h3>
+                    <p class="status__number">3k+</p>
+                    <p class="status__text">We have apartments everypoint of Europe.</p>
+                </div>
+                <div class="status__downloads">
+                    <h3 class="status__name">Downloads</h3>
+                    <p class="status__number">7k+</p>
+                    <p class="status__text">According to +7,000 clients on App Store and Google Play</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="logo logo__footer">
+            <img src="<%=require('./images/noun_Track_553591.png')%>" alt="">
+            <p class="logo__text">Jogsy</p>
+        </div>
+        <nav class="menu">
+            <ul class="menu__footer">
+                <p class="footer__title">FEATURES</p>
+                <li> <a href="">Home</a></li>
+                <li> <a href=""> Become a host</a></li>
+                <li> <a href=""> Pricing</a></li>
+                <li> <a href=""> Reviews</a></li>
+                <li> <a href="">Login</a></li>
+            </ul>
+            <ul class="menu__footer">
+                <p class="footer__title">COMPANY</p>
+                <li> <a href="">About Us</a></li>
+                <li> <a href=""> Press</a></li>
+                <li> <a href=""> Contact</a></li>
+                <li> <a href="">Careers</a></li>
+                <li> <a href="">Blog</a></li>
+            </ul>
+            <ul class="menu__footer">
+                <p class="footer__title">TERMS & POLICIES</p>
+                <li> <a href="">Terms of Service</a></li>
+                <li> <a href=""> Privacy Policy</a></li>
+                <li> <a href=""> Security</a></li>
+            </ul>
+        </nav>
+        <div class="footer__follow">
+            <p class="footer__title">SUBSCRIBE TO OUR NEWSLETTER</p>
+            <div class="footer__send">
+                <input type="text" class="footer__input" placeholder="Your email adress">
+                <button type="submit" class="footer__button">Send
+                </button>
+
+            </div>
+            <img class="footer__icons" src="<%=require('./images/labels.png')%>" alt="">
+
+            <p class="footer__copyright">© 2019 Jogsy.</p>
+    </footer>
+</body>
+
+</html>

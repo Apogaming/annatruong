@@ -1,0 +1,12 @@
+.search__button{
+    position: absolute;
+    top: 25px;
+    left: 377px;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    background-image: url(../../../images/search.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 25px;
+}

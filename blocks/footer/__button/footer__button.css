@@ -1,0 +1,16 @@
+.footer__button{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    background: #2f71e5;
+    box-shadow: 0 5px 15px rgba(14,26,57,.2);
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 50%;
+    margin-left: -72px;
+    margin-top: 2px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}

@@ -1,0 +1,10 @@
+.step__next {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 13px rgba(216, 231, 243, 0.5);
+    border-radius: 50%;
+    border-color: #E4E9F7;
+    color: #4A67C4;
+    cursor: pointer;
+}

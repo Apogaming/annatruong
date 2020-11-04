@@ -1,0 +1,22 @@
+.menu__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    color: white;
+    min-height: 169px;
+    margin-left: 100px;
+}
+
+.menu__footer li a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.menu__footer li{
+    margin-top: 10px;
+    margin-left: 0;
+}

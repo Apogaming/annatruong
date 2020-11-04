@@ -1,0 +1,11 @@
+.menu__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}

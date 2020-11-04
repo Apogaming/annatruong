@@ -1,0 +1,10 @@
+.card__price {
+    margin-left: 50px;
+    font-family: "SF Pro Display";
+    font-size: 19px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.4375px;
+    color: #4967C0;
+    font-weight: bold;
+}

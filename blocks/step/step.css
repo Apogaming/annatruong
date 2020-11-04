@@ -1,0 +1,10 @@
+@import url(./__title/step__title.css);
+@import url(./__subtitle/step__subtitle.css);
+@import url(./__text/step__text.css);
+@import url(./__prew/step__prew.css);
+@import url(./__next/step__next.css);
+
+.step{
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    max-width: 373px;
+}

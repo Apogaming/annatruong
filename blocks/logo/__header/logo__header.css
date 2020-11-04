@@ -1,0 +1,8 @@
+.logo__header{
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}

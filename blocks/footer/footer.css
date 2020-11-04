@@ -1,0 +1,19 @@
+@import url(./__follow/footer__follow.css);
+@import url(./__title/footer__title.css);
+@import url(./__send/footer__send.css);
+@import url(./__input/footer__input.css);
+@import url(./__button/footer__button.css);
+@import url(./__icons/footer__icons.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer{
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    background-image: url("../../images/footer.png");
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 444px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

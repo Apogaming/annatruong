@@ -1,0 +1,8 @@
+.card__text {
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.322368px;
+    color: #7F8194;
+    margin: 7px 15px;
+}

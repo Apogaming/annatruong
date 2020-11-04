@@ -1,0 +1,17 @@
+@import url(./__header/menu__header.css);
+@import url(./__footer/menu__footer.css);
+.menu{
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    
+}
+li{
+    display: inline;
+    margin-left: 40px;
+}

@@ -1,0 +1,12 @@
+@import url(./__title/travel__title.css);
+@import url(./__subtitle/travel__subtitle.css);
+@import url(./__bottom/travel__bottom.css);
+@import url(./__photo/travel__photo.css);
+@import url(./__app/travel__app.css);
+
+.travel {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+@import url(./__header/logo__header.css);
+@import url(./__footer/logo__footer.css);
+@import url(./__text/logo__text.css);
+
+
+.logo{
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

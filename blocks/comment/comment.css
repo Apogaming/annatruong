@@ -1,0 +1,11 @@
+@import url(./__container/comment__container.css);
+@import url(./__text/comment__text.css);
+@import url(./__dane/comment__dane.css);
+@import url(./__photo/comment__photo.css);
+@import url(./__author/comment__author.css);
+@import url(./__date/comment__date.css);
+@import url(./__about/comment__about.css);
+.comment {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+
+}

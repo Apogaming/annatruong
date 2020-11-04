@@ -1,0 +1,14 @@
+@import url(./__title/status__title.css);
+@import url(./__subtitle/status__subtitle.css);
+@import url(./__text/status__text.css);
+@import url(./__count/status__count.css);
+@import url(./__hosts/status__hosts.css);
+@import url(./__apartments/status__apartments.css);
+@import url(./__downloads/status__downloads.css);
+@import url(./__name/status__name.css);
+@import url(./__number/status__number.css);
+@import url(./__text/status__text.css);
+.status {
+    max-width: 600px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}

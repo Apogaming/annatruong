@@ -1,0 +1,12 @@
+.comment__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 463px;
+    padding: 32px 34px;
+    background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.21);
+    border-radius: 11.25px;
+    margin-top: 15px;
+}

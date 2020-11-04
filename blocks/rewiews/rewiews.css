@@ -1,0 +1,7 @@
+.rewiews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin-top: 120px;
+}

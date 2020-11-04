@@ -1,0 +1,34 @@
+@import url(./__text/story__text.css);
+@import url(./__title/story__title.css);
+@import url(./__subtitle/story__subtitle.css);
+@import url(./__apply/story__apply.css);
+@import url(./__input/story__input.css);
+@import url(./__button/story__button.css);
+@import url(./__map/story__map.css);
+@import url(./__video/story__video.css);
+@import url(./__pin/story__pin.css);
+
+.story {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    margin-top: 120px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "story__text story__map"
+        "story__apply story__map";
+}
+
+.story__text {
+    grid-area: story__text;
+}
+
+.story__apply {
+    grid-area: story__apply;
+}
+
+.story__map {
+    grid-area: story__map;
+}

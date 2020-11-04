@@ -1,0 +1,9 @@
+.header__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    padding: 54px 0px;
+    max-width: 1200px;
+}
