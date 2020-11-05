@@ -5,15 +5,17 @@
 @import url(./__button/footer__button.css);
 @import url(./__icons/footer__icons.css);
 @import url(./__copyright/footer__copyright.css);
-
-.footer{
+.footer {
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
-    background-image: url("../../images/footer.png");
+    background: url("../../images/footer.png");
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     min-height: 444px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    max-width: 100%;
+    margin: auto auto;
 }

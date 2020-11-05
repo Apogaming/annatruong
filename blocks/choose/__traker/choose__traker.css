@@ -1,0 +1,12 @@
+.choose__traker {
+    margin-top: 790px;
+    width: 258px;
+    height: 83px;
+    background: rgb(212, 227, 245);
+    mix-blend-mode: normal;
+    border-radius: 41.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

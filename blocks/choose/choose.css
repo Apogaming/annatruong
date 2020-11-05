@@ -1,9 +1,14 @@
+@import url(./__top/choose__top.css);
 @import url(./__title/choose__title.css);
 @import url(./__subtitle/choose__subtitle.css);
 @import url(./__progressbar/choose__progressbar.css);
 @import url(./__line/choose__line.css);
 @import url(./__button/choose__button.css);
-@import url(./__container/choosee__container.css);
+@import url(./__container/choose__container.css);
+@import url(./__traker/choose__traker.css);
+@import url(./__text/choose__text.css);
+@import url(./__img/choose__img.css);
+
 
 .choose{
     background-image: url("../../images/Rectangle.svg");
@@ -13,6 +18,7 @@
     display: flex;
     flex-direction: column;
     margin-top: -672px;
-    padding: 0px 121px;
-    
+    max-width: 100%;
+    background-size: cover;
+    padding: 54px 126px;
 }

@@ -2,6 +2,7 @@
 @import url(./__input/search__input.css);
 
 .search {
+    margin-top: 40px;
     position: relative;
     padding: 0;
     z-index: 1;

@@ -14,13 +14,13 @@
 @import url(./blocks/rewiews/rewiews.css);
 @import url(./blocks/status/status.css);
 @import url(./blocks/footer/footer.css);
-
-
-.body{
-    max-width: 1440px;
+.body {
+    max-width: 100%;
     margin: auto auto;
+    position: relative;
 }
-.diveder{
+
+.diveder {
     border: 1px solid #E3E3E4;
     width: 85%;
     margin: auto auto;

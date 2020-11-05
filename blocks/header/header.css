@@ -1,4 +1,5 @@
 @import url(./__top/header__top.css);
+@import url(./__bottom/header__bottom.css);
 @import url(./__line/header__line.css);
 @import url(./__getapp/header__getapp.css);
 @import url(./__title/header__title.css);
@@ -6,10 +7,9 @@
 
 .header{
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
-    padding: 0px 126px;
     position: relative;
-    max-width: 1200px;
-    min-height: 678px;
+    max-width: 100%;
+    min-height: 668px;
     background-image: url("../../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;

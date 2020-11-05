@@ -1,5 +1,7 @@
 @import url(./__photo/find__photo.css);
-
-.find{
-margin-top: -137px;
+.find {
+    margin-top: -137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
